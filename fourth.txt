@@ -1,0 +1,27 @@
+All Git Commands are as follows:
+
+	1. git config --global user.name "Ekankshi" :-Configure the author name to be used with your commits.
+	2. git config --global user.email "ekankshi&gmail.com" :-Configure the author email address to be used with your commits.
+	3. git init :- create a new local repository
+	4. git add <filename> :- add one or more file to staging.
+	5. git commit -m "Commit message" :- Commit changes to head but not yet to the remote repository.
+	6. git commit -a :- Commit any files you've added with git add.
+	7. git push origin master:- Send changes to the master branch of your remote repository.
+	8. git status:- List the files you've changed and those you still need to add or commit.
+	9. git remote add origin <server> :- If you haven't connected your local repository to a remote server, add the server to be able to push to it.
+   10. git remote -v :- List all currently configured remote repositories.
+   11. git checkout -b <branchname> :- Create a new branch and switch to it.
+   12. git checkout <branchname> :- Switch from one branch to another.
+   13. git push origin <branchname> :- Push the branch to your remote repository, so others can use it.
+   14. git pull :- Fetch and merge changes on the remote server to your working directory.
+   15. git merge <branchname>:- To merge a different branch into your active branch.
+   16. git add <filename>:- After you have manually resolved any conflicts, you mark the changed file.
+   17. git log:- Get the ID using this command.
+   18. git checkout -- <filename> :- you can replace the changes in your working tree with the last content in head.
+   19. git fetch origin:- fetch the latest history from the server and point your local master branch at it.
+   20. git grep "foo()":- Search the working directory for foo().
+   21. git push --tags origin:- Push all tags to remote repository.
+   22. git clone /path/to/repository:- Create a working copy of a local repository.
+   23. git diff:- View all the merge conflicts.
+   24. git diff --base <filename>:- View the conflicts against the base file.
+   25. git diff <sourcebranch> <targetbranch>:- Preview changes, before merging
