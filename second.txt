@@ -25,3 +25,6 @@ All Git Commands are as follows:
    23. git diff:- View all the merge conflicts.
    24. git diff --base <filename>:- View the conflicts against the base file.
    25. git diff <sourcebranch> <targetbranch>:- Preview changes, before merging
+   
+   
+  
